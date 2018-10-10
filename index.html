@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ToDo</title>
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="favicon-check.ico" />
+	<script src="todo.js" defer></script>
+</head>
+<body>
+	<div class="todo">
+		<h1 class="todo__heading">TODO List</h1>
+		<div class="todo__block">
+			<form class="add-task">
+				<input id="task" class="add-task__input add-task__text-input" type="text" placeholder="Type the task">
+				<button id="add" class="add-task__input add-task__submit" type="submit">Add</button>
+			</form>
+			<ul id="list" class="todo__list">
+				<li class="todo__item">
+					<input class="option-button__checkbox" type="checkbox"  id="item-1" checked>
+					<label class="option-button__label" for="item-1">Составить список</label>
+					<span class="close"></span>
+				</li>
+				<li class="todo__item">
+					<input class="option-button__checkbox" type="checkbox"  id="item-2" checked>
+					<label class="option-button__label" for="item-2">Полить цветы</label>
+					<span class="close"></span>
+				</li>
+				<li class="todo__item">
+					<input class="option-button__checkbox" type="checkbox"  id="item-3" checked>
+					<label class="option-button__label" for="item-3">Купить вкусности</label>
+					<span class="close"></span>
+				</li>
+				<li class="todo__item">
+					<input class="option-button__checkbox" type="checkbox"  id="item-4" checked>
+					<label class="option-button__label" for="item-4">Покормить кота</label>
+					<span class="close"></span>
+				</li>
+        <li class="todo__item">
+					<input class="option-button__checkbox" type="checkbox"  id="item-5" checked>
+					<label class="option-button__label" for="item-5">Съесть вкусности</label>
+					<span class="close"></span>
+				</li>
+				<li class="todo__item">
+					<input class="option-button__checkbox" type="checkbox"  id="item-6" checked>
+					<label class="option-button__label" for="item-6">Сделать что-нибудь ещё</label>
+					<span class="close"></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
